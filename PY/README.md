@@ -69,6 +69,10 @@ So after a meeting we've done we decided to basically make a transpiler instead 
 
 > HOW TO ?
 
-- Install Python 3.x if you have it yet .
-- Run main.py  (this will Tokenize the test.lang) and then out put the whole Tokens , which are needed for  next step which is **Parser**
+- Install Python 3.x if you don't have it yet .
+- Run main.py  (this will Tokenize the test.lang into python Tokens ) and then output the whole Tokens , which are needed for  next step which is **Parser**
+
+> NOTE 
+
+Tokens are made as a nested Dictionaries (json basically)
 
