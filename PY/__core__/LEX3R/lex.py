@@ -42,8 +42,8 @@ class Lexer(object): # will inherites from Compiler class maybe after ?
                 self.tokens[line_number] = {}
 
                 # 1 - Check if comment .. (starts with #)
-                if splitted_text.strip().startswith('#'):
-                    self.tokens[line_number][str(line_number)+"_"+str(line_number)] = [Data_Type_Names["comment"] , line_text]
+                if line_text.strip().startswith('#'):
+                    self.tokens[line_number] = [Data_Type_Names["comment"] , line_text]
                 
                 else :
                     #Split the line by spaces (this is a demo so functions and stuff wont work)
