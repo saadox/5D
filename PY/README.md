@@ -14,11 +14,11 @@ So after a meeting we've done we decided to basically make a transpiler instead 
 Example , in our lang we have this block of code with some comments :
 
 ```
-	$var = 9 + 9     
+$var = 9 + 9     
 
-	#This is a comment 1
-		# this is also a comment 2
-									# this is also a comment 3
+#This is a comment 1
+	# this is also a comment 2
+								# this is also a comment 3
 ```
 
 Tokens SHould be :
