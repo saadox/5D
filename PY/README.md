@@ -64,13 +64,21 @@ Tokens SHould be :
 
 ```
 
+> BRIEF EXPLAINATION
+
+- Basically Main keys ("0" , "1" ...etc) represents the lines Numbers .
+- "0_0 , 0_1 ...etc" , since we split each line by spaces i kept track of them would be usefull in future .
+- And fianlly each sub-dictionary has a list ['data_type' : 'value/text' ] .
+	- 'v' simply means Var
+	- 'op' means operation symbole
+	- 'n' means Number
+	- '#' means its an inline comment
+	- 'empty' simply means it's an empty line (\n)
+- We can know when a line ends simply by checking last item on the line.
 
 > HOW TO ?
 
 - Install Python 3.x if you don't have it yet .
 - Run main.py  (this will Tokenize the test.lang into python Tokens ) and then output the whole Tokens , which are needed for  next step which is **Parser**
 
-> NOTE 
-
-Tokens are made as a nested Dictionaries (json basically)
 
